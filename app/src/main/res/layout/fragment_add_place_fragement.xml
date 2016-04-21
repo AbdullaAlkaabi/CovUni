@@ -1,0 +1,103 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="abdualla.com.covuninavigator.AddPlaceFragement">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <GridLayout
+        android:layout_width="match_parent"
+            android:layout_height="228dp"
+            android:layout_gravity="center_horizontal|top">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Name:"
+                android:id="@+id/textView2"
+            android:layout_row="1"
+            android:layout_column="4" />
+
+        <EditText
+            android:hint="@string/nameEntry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameInput"
+            android:layout_row="1"
+            android:layout_column="7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Address:"
+            android:id="@+id/textView3"
+            android:layout_row="2"
+            android:layout_column="4" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addressInput"
+            android:hint="@string/addressEntry"
+            android:layout_row="2"
+            android:layout_column="7" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Latitude:"
+                android:id="@+id/textView4"
+            android:layout_row="3"
+            android:layout_column="4" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/latitudeInput"
+            android:hint="@string/latEntry"
+            android:layout_row="3"
+            android:layout_column="7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Longitude:"
+            android:id="@+id/textView5"
+            android:layout_row="4"
+            android:layout_column="4" />
+
+        <EditText
+                android:layout_width="295dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/longitudeInput"
+                android:layout_row="4"
+                android:hint="@string/lngEntry"
+                android:layout_column="7" />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:id="@+id/saveplace_button"
+                android:layout_row="5"
+                android:layout_column="4"
+                android:contentDescription="@string/AddPlace"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/cancelplace_button"
+            android:layout_row="5"
+            android:layout_column="7"
+            android:contentDescription="@string/Cancel"
+            />
+
+    </GridLayout>
+</FrameLayout>

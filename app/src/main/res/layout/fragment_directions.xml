@@ -1,0 +1,64 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="abdualla.com.covuninavigator.directions"
+    android:rowCount="21"
+    android:columnCount="14">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Source:"
+        android:id="@+id/sourcetv"
+        android:layout_row="3"
+        android:layout_column="7" />
+
+    <AutoCompleteTextView
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sourceet"
+        android:layout_row="3"
+        android:layout_column="13" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Destination:"
+        android:id="@+id/desttv"
+        android:layout_row="17"
+        android:layout_column="7" />
+
+    <AutoCompleteTextView
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/destet"
+        android:layout_row="17"
+        android:layout_column="13" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get"
+        android:id="@+id/getButton"
+        android:layout_row="19"
+        android:layout_column="7"
+        android:contentDescription="@string/getdirections"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/cancelButton"
+        android:layout_row="19"
+        android:layout_column="13"
+        android:contentDescription="@string/Cancel"
+        />
+
+
+</GridLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">CovUni Navigator</string>
+    <string name="navigation_drawer">Navigation drawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="search_alert_message">Enter Address, Postcode or Name of Building</string>
+    <string name="search_alert_title">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">splash</string>
+    <string name="title_activity_place">Search Places</string>
+    <string name="nameEntry">Enter Name</string>
+    <string name="addressEntry">Enter address</string>
+    <string name="latEntry">Enter Latitude</string>
+    <string name="lngEntry">Enter Longitude</string>
+
+    <string name="searchPlaces">Enter Place name</string>
+    <!-- Nav menu content description -->
+    <string name="Home">Go to Home Page</string>
+    <string name="Places">Go to places page</string>
+    <string name="Settings">Go to settings page</string>
+    <string name="Share">Go to Share page</string>
+    <string name="Send">Send application</string>
+
+
+    <!-- Floating buttons -->
+    <string name="directions">Add Start and End Points</string>
+    <string name="AddPlace">Add a Place</string>
+
+    <!-- Directions Fragment  -->
+    <string name="getdirections">Get Directions</string>
+    <string name="Cancel">Cancel and dismiss Fragment</string>
+    <string name="splash">Splash Screen</string>
+
+
+</resources>
